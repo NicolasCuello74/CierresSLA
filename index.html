@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Formulario SLA</title>
+  </head>
+  <body>
+    <div id="contenedor" class="contenedor">
+      <header>
+        <h1>Cierres de SLA</h1>
+        <div class="buttons">
+          <button id="agregarCampo">Agregar Campo</button>
+          <button id="cerrarBotton">Ocultar botones</button>
+          <button id="downloadImage">Descargar</button>
+        </div>
+      </header>
+      <main>
+        <div id="contenedorCampos" class="contenedorCampos"></div>
+      </main>
+      <footer>
+        <div class="tyc">
+          <p>&copy; 2023 Konecta. Todos los derechos reservados.</p>
+          <p>Este sitio web y su contenido son propiedad de KONECTA.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
